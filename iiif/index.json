@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://testerir-iiif.vercel.app/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Coleção Pessoal RiR 2017"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://testerir-iiif.vercel.app/1/be26a11ed95441bf6b4447db7f0dcc7e/full/300,225/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 225,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "http://testerir-iiif.vercel.app/1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Biblioteca Amazonia"
+                ]
+            }
+        },
+        {
+            "id": "http://testerir-iiif.vercel.app/2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Floresta Amazonica"
+                ]
+            }
+        },
+        {
+            "id": "http://testerir-iiif.vercel.app/3/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Rio Amazonas"
+                ]
+            }
+        },
+        {
+            "id": "http://testerir-iiif.vercel.app/4/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Rio Amazonas Barco"
+                ]
+            }
+        },
+        {
+            "id": "http://testerir-iiif.vercel.app/5/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Rio Amazonas Nascer"
+                ]
+            }
+        }
+    ]
+}

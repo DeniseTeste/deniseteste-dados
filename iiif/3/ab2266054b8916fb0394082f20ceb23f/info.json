@@ -1,0 +1,28 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http://testerir-iiif.vercel.app/3/ab2266054b8916fb0394082f20ceb23f",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 256
+    }
+  ],
+  "width": 960,
+  "height": 720,
+  "sizes": [
+    {
+      "width": 300,
+      "height": 225
+    },
+    {
+      "width": 2000,
+      "height": 1500
+    }
+  ]
+}

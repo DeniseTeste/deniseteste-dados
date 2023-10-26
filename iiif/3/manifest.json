@@ -1,0 +1,104 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://testerir-iiif.vercel.app/3/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Rio Amazonas"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Denise Martins"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2019-06-01"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Type"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Foto"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "http://testerir-iiif.vercel.app/3/ab2266054b8916fb0394082f20ceb23f/full/300,225/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 225,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://testerir-iiif.vercel.app/3/canvas/0",
+            "type": "Canvas",
+            "height": 720,
+            "width": 960,
+            "items": [
+                {
+                    "id": "http://testerir-iiif.vercel.app/3/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://testerir-iiif.vercel.app/3/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://testerir-iiif.vercel.app/3/canvas/0",
+                            "body": {
+                                "id": "http://testerir-iiif.vercel.app/3/ab2266054b8916fb0394082f20ceb23f/full/2000,1500/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1500,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://testerir-iiif.vercel.app/3/ab2266054b8916fb0394082f20ceb23f",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
